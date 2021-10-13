@@ -5,7 +5,33 @@
 }
 
 body {
-  background-color: #EDEDED;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
+  background-color: #E5E5E5;
+  line-height: 150%;
+}
+
+#main {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color:  #EDEDED;
+  padding-top: 1px;
+  
+}
+
+.header {
+  max-width: 994px;
+  margin: 100px auto 0; 
+}
+
+.header__img {
+  width: 100%;
+  height: auto;
+  border-radius: 50px;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+}
+
+.header__title {
+  text-align: center;
+  font-style: italic;
 }
